@@ -8,12 +8,10 @@ function Submit() {
     ARRAY1.push(B);
     ARRAY1.push(C);
     ARRAY1.push(D);
-    console.log(ARRAY1);
     document.getElementById("sorted_answers").innerHTML= ARRAY1;
 }
 function sorty() {
     ARRAY1.sort();
-    console.log(ARRAY1);
     document.getElementById("sorted_answers").innerHTML= ARRAY1;
     document.getElementById("ans").value= ARRAY1;
 }
