@@ -8,6 +8,7 @@ function Submit() {
     ARRAY1.push(B);
     ARRAY1.push(C);
     ARRAY1.push(D);
+    ARRAY1= [A,B,C,D];
     document.getElementById("sorted_answers").innerHTML= ARRAY1;
 }
 function sorty() {
