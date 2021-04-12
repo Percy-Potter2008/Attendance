@@ -27,7 +27,7 @@ function submit()
     document.getElementById("submit_button").style.display= "none";
     document.getElementById("sort_button").style.display= "inline-block";
 }
-Function sorting()
+function sorting()
 {
     Name_Of_the_student_array.sort();
     console.log(Name_Of_the_student_array);
